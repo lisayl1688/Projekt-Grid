@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #E9E9E0;
+}
+
+@font-face {
+    font-family: CormorantGaramond-Regular;
+    src: url(./fonts/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: CormorantGaramond-Bold;
+    src: url(./fonts/CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: CormorantGaramond-Italic;
+    src: url(./fonts/CormorantGaramond-Italic.ttf);
+}
+
+h1{
+    font-family:  CormorantGaramond-Bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black;
+    padding: 20px 0;
+}
+
+nav ul {
+    font-family: CormorantGaramond-Regular;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 5px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 60em 1fr;
+}
+
+.top {
+    font-size: 35px;
+    font-family: CormorantGaramond-Bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.haupt {
+    display: grid;
+    grid-template-columns: 29em 1fr;
+}
+
+.nurTexte {
+    display: grid;
+    grid-template-columns: 14em 2fr;
+    grid-template-rows: 3fr;
+    gap: 15px;
+}
+
+.titel {
+    font-size: 24px;
+    font-family: CormorantGaramond-Bold;
+}
+
+.story {
+    font-size: 16px;
+    font-family: CormorantGaramond-Regular;
+}
+
+
+.küche {
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+.untertitel {
+    font-size: 16px;
+    font-family: CormorantGaramond-Italic;
+    margin-left: 10px;
+}
+
+.rechts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4em 13em 15em 1fr;
+    gap: 15px;
+}
+
+.rechts p:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: CormorantGaramond-Bold;
+}
+
+.addHere {
+    border:4px solid black;
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.rechtsMitte {
+    border:4px solid black;
+}
+
+.knives {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: CormorantGaramond-Bold;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.kniveText {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: CormorantGaramond-Regular;
+    padding: 0 10px 10px 10px;
+}
+
+.linkKnives {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 10px 20px;
+    color: black;
+    font-size: 20px;
+    font-family: CormorantGaramond-Regular;
+}
+
+.rechts img {
+    border:4px solid black;
+    padding: 30px;
+}
